@@ -1,0 +1,19 @@
+created: 20200423153701937
+modified: 20210310040314845
+tags: $:/giffmex/tutorials
+title: New tiddler linked here
+tmap.id: e4cf5ba6-eefa-4396-af64-baae6d0d4d37
+type: text/vnd.tiddlywiki
+
+Two buttons at the top create new tiddlers that link to the tiddler from which they were created.
+
+*<<icon {{$:/core/images/new-button}} "">> in the tiddler viewtoolbar creates a simple tiddler that contains a link to the present tiddler.
+*<<icon {{$:/core/images/new-journal-button}} "">> does the same, but the tiddler title is a date and time stamp.
+
+<span class="bluebox">
+
+''Activity:''
+
+Click the buttons in any tiddler to see the tiddlers they create. Save changes. Use the searchbar to search for [[Welcome to Stroll]]. Use that link to return to the tutorial.
+
+</span>

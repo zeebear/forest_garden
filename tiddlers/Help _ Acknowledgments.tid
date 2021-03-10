@@ -1,0 +1,30 @@
+created: 20200423160022247
+modified: 20210310040314436
+tags: $:/giffmex/tutorials
+title: Help / Acknowledgments
+tmap.id: 71c9f964-ad54-41b6-b04a-a2453a9dbc78
+type: text/vnd.tiddlywiki
+
+!Get help
+
+
+*Here is a [[Stroll layout cheat sheet]].<br><br>
+
+*https://tiddlywiki.com/#Working%20with%20TiddlyWiki will help you learn more about ~TiddlyWiki<br><br>
+
+*[[This link|https://tiddlywiki.com/#Formatting%20in%20WikiText]] will show you basic wikitext formatting.<br><br>
+
+
+*The ~TiddlyWiki [[Google group|https://groups.google.com/forum/#!forum/tiddlywiki]] has many knowledgeable people who can help you with problems. Add the word Stroll and I should see it the same day or next day, unless I am traveling. <br><br> //''Note:'' I will try to help you if you run into a problem. But I will probably not take up your suggestions to change Stroll more to your liking. <span class="red">Please do NOT ask us to help you with questions about ~TiddlyMap.</span> There are too many incompatibilities between ~TiddlyMap and Stroll.  ~TiddlyWiki is infinitely customizable, and there are also numerous plugins you can add, found at the [[TiddlyWiki toolmap|https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM]].//<br>
+
+!Acknowledgements
+
+Stroll was made with the help of many people:
+
+*[[Anne-Laure Le Cunff|https://twitter.com/anthilemoon]]'s enthusiasm for (and promotion of) ~TiddlyBlink was a big inspiration behind the changes in Stroll
+*[[Saq Imtiaz|https://twitter.com/saqimtiaz]] custom-made his Stories plugin for Stroll, and made many recommendations for Stroll. 
+*Stroll also uses plugins from [[danielo515|http://contextplugin.tiddlyspot.com/]], [[flibbles|https://flibbles.github.io/tw5-relink/]], and [[snowgoon88|http://snowgoon88.github.io/TW5-extendedit/#About%20the%20Edit-CompText%20plugin]].
+*Many people at the [[TiddlyWiki Google group|https://groups.google.com/forum/#!forum/tiddlywiki]] made great recommendations regarding the form and functionality of Stroll.
+*And of course, [[Jeremy Ruston|https://twitter.com/Jermolene]] is the creator of ~TiddlyWiki, the platform Stroll is built on.
+
+Thank you to all of you!

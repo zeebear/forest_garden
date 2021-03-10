@@ -1,0 +1,73 @@
+created: 20200510030209847
+modified: 20210310040314874
+tags: $:/giffmex/tutorials
+title: Recent updates to Stroll
+tmap.id: 6475edbf-9ff1-4436-aed1-f53baab1f378
+type: text/vnd.tiddlywiki
+
+''12-31-2020''
+
+* Upgraded Stroll site and empty version of Stroll to TiddlyWiki version 5.1.23.
+* Updated $:/plugins/wikilabs/link-to-tabs and $:/plugins/flibbles/relink to most recent versions.
+* Updated [[$:/.giffmex/ui/EditTemplate]] because it was causing the delete and close buttons to stop working in edit mode after the upgrade to 5.1.23.
+* Added the editor-autolist plugin by Saq Imtiaz, which makes numbered lists and bulleted lists easier to use. Hit enter to create a new line, tab to indent, shift+tab to unindent, and enter (twice) to escape list.  $:/plugins/sq/editor-autolist
+* Added a new way to view references - as tabs!: [[$:/.giffmex/ViewTemplate/refstabs]] Try it out from the pink eyeball tab.
+* Added [[Remove Stroll from your TW]] and edited [[Welcome to Stroll]] so it appears in the tabs.
+* Still working on a fix for the non-functioning Close others and Fold others buttons in the more menu.
+
+
+''8-8 -2020''
+
+*Added update to the Stories plugin to fix the bug with the titles. If you have been keeping up with prior updates, you should be able to drag $:/plugins/sq/Stories and  $:/.giffmex/sidebar/advancedconfig to your file to fix it. If you encounter more problems, you may have an older version of Stroll, and you will need to drag the following tag pill to your file to update all Stroll tiddlers. {{$:/giffmex/stroll||$:/core/ui/TagTemplate}}
+
+''8-3-2020''
+
+*Added te new update to the Stories plugin. Now you can:
+**Adjust the ratio between the two story columns (with a slider in the gear tab of the sidebar)
+**Add a custom viewtemplate or edittemplate to your tiddlers (see [[$:/plugins/sq/Stories/changelog]], 1.01)
+*To update, drag these links to your file: 
+**[[$:/.giffmex/sidebar/advancedconfig]] (the slider added to the sidebar tab)
+**[[$:/.giffmex/ViewTemplate/title]] (contained errors related to the sidebar tab)
+**[[$:/core/ui/ViewTemplate/title]] (contained errors related to the sidebar tab)
+
+''6-3-2020''
+
+*Fixed an oversight which kept autocomplete from working. If your autocomplete doesn't work, drag [[this link|$:/config/EditorTypeMappings/text/vnd.tiddlywiki]] into your file. Updated the troubleshooting tab accordingly. Thanks to Fact Droid for catching this!
+
+''5-27-2020''
+
+*Added to the troubleshooting tab about ~TiddlyMap.
+
+''5-21-2020''
+
+*Now the only non-system tags will be yours. The others have been turned into system tags.
+*Added the <<icon {{$:/core/images/chevron-down}}"">> button in editing view. Clicking this button reveals a dropdown which allows you to hide editing sections as desired, and expand the text area. This gives you more space and less clutter when writing and editing.
+*Updated [[Advanced stuff]] [[Add Stroll to your TW]] accordingly.
+
+''5-19-2020''
+
+*Added instructions on updating Stroll
+*Untagged 'stroll' from $:/DefaultTiddlers so that adding Stroll to an existing ~TiddlyWiki file will not overwrite the user's default tiddlers.
+
+''5-16''
+
+* Added a [[Troubleshooting]] section with hacks for Markdown, ~TiddlyMap, and iOS
+* New to the [[Goodies file|https://giffmex.org/stroll/goodies.html]]: a new way to view references!
+
+''5-14''
+
+*Reverted the animation duration to the default 400. This was an unnecessary part of Stroll. Thanks to Faldrian for pointing this out, to keep Stroll lean and as much like a standard ~TiddlyWiki as possible.
+
+''5-10:''
+
+*Fixed description fields for the new-note-here buttons (thanks Gerrit Beine!)
+*Put link to Muffin back in the pink eyeball tab (thanks Mark Krieg!).
+*Added two new goodies to the [[Goodies file|https://giffmex.org/stroll/goodies.html]].
+
+''5-9:''
+
+*Changed Stylesheet tiddler to $:/.giffmex/.Stylesheet4Stroll, and removed the tc-sidebar-scrollable line, since it was conflicting with the Stories plugin and user tweaks. (It had been for the parallel tab in ~TiddlyBlink.)
+
+*Added documentation for disabling autocomplete for iOS, etc, and additional explanation about importing the 'blinks' tag pill to one's own ~TiddlyWiki file.
+
+*Added the present 'Updates to Stroll' tab.

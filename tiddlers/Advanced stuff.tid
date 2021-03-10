@@ -1,0 +1,29 @@
+created: 20200502190805072
+modified: 20210310040314111
+tags: $:/giffmex/tutorials
+title: Advanced stuff
+tmap.id: 3a91b0ab-efae-4bea-8dce-30ec8d0ae32d
+type: text/vnd.tiddlywiki
+
+!Tiddler title position
+
+Because of the two story river format, we decided to move tiddler titles lower than they are in an average ~TiddlyWiki. But if you want to revert tiddler titles back to the default position next to the toolbar, open the sidebar TAB with the gear icon (<<icon {{$:/core/images/options-button}} "">>), and check the desired box.
+
+!Options for viewing tiddlers in columns
+
+Stroll has columns set so that you can view multiple tiddlers in each column. But you can change this so that either column only shows one tiddler at a time.
+
+*Advantage:  this allows you to keep one column 'locked' into place with one fixed tiddler, while the other column can have multiple tiddlers accessible by scrolling up and down.
+*Disadvantage: any other tiddlers in the 'locked' column will be hidden. You will need to open them with the links in the 'Open' tab in the sidebar.
+
+To try this out, open the sidebar tab with the gear icon (<<icon {{$:/core/images/options-button}} "">>), and choose from the dropdown menus there.
+
+!Give yourself room to write!
+
+Edit a tiddler, and click the <<icon {{$:/core/images/chevron-down}} "">> button. This will give you options for:
+
+*Hiding and revealing the various sections of the edittemplate
+*Opening and closing the sidebar
+*Editing a custom edittemplate section that contains information you want to have on hand as you write
+*Adjusting the height of the text area of tiddlers
+

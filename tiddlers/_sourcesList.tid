@@ -1,0 +1,16 @@
+caption: sources
+created: 20200131035322127
+modified: 20210310040313758
+tags: tb meta
+title: .sourcesList
+tmap.id: b2c0fa7a-0cdb-4845-8f27-63e375c3dea0
+type: text/vnd.tiddlywiki
+
+Tag tiddlers with the tag `sources` if they are book chapters, articles, or webpages. They will appear here and will also appear as references below the tiddlers linked to from them.
+
+<<list-search
+"[!is[system]tag[sources]sort[title]]"
+"search"
+"$:/temp/list-search-example"
+"$:/core/ui/ListItemTemplate"
+placeholder:"" >>

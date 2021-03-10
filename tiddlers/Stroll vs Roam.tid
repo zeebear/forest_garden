@@ -1,0 +1,28 @@
+created: 20200423160552136
+modified: 20210310040316034
+tags: $:/giffmex/tutorials
+title: Stroll vs Roam
+tmap.id: 66ebd4af-d20a-4f8e-9a48-c6c068b9b742
+type: text/vnd.tiddlywiki
+
+Stroll and Roam (https://roamresearch.com/) are not competitors. I use both, and recommend Roam highly. 
+
+Each app has its strengths and drawbacks. Here is a general comparison:
+
+''Advantages of Roam''
+
+*Block level transclusion
+*Outliner features (zoom in and out, expand and collapse points, etc)
+*Graph overview
+*Fast code blocks like /time, /date picker, etc
+*Numerous hotkeys
+
+''Advantages of Stroll''
+
+*Free
+*Local file, your data is yours, no privacy concerns or fear of losing your data if Roam gets hacked or closes its doors
+*Text formatting, CSS options for tables, etc are superior
+*Infinitely customizable UI
+*Widgets, macros and other goodies built in
+*An extensive list of plugins (see the [[TiddlyWiki toolmap|https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM]])
+*Multiple options for viewing references

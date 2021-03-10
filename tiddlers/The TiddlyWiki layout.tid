@@ -1,0 +1,17 @@
+created: 20200423141216977
+modified: 20210310040316057
+tags: $:/giffmex/tutorials
+title: The TiddlyWiki layout
+tmap.id: 4e8c9896-a6dd-4b0c-84db-f45bbbd011be
+type: text/vnd.tiddlywiki
+
+Stroll is an adaptation of ~TiddlyWiki. Think of ~TiddlyWiki as a file drawer of notecards [the notecards are called tiddlers, a British term for a small fish]. 
+
+*The left side of the layout is the stack of open tiddlers. It is called a story river.
+*The right side of the layout is a sidebar that contains buttons, a search bar, and tabs with lists of the closed and hidden tiddlers.
+
+<span class="bluebox">
+
+''Activity 1: ''Close the sidebar by clicking the <<icon {{$:/core/images/chevron-right}} "">> icon in the top right corner. Click it again to re-open it.
+
+</span>

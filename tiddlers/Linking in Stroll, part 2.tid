@@ -1,0 +1,26 @@
+created: 20200504134602362
+modified: 20210310040314620
+tags: $:/giffmex/tutorials
+title: Linking in Stroll, part 2
+tmap.id: 7adcba3e-cede-4613-bc7e-bfe1ae8e2062
+type: text/vnd.tiddlywiki
+
+Stroll has a references section below each tiddler, which lists any tiddlers that backlink to that tiddler. That way you can move back and forth quickly between tiddlers.
+
+The references can be viewed in four different ways, or hidden completely. You can change them in the reference tab (<<icon {{$:/core/images/preview-open}}"">>) in the sidebar. 
+
+*''Full text'' - displays each reference as a link and as the contents of that tiddler 'transcluded' into this tiddler.
+*''Full text under sliders'' - displays each reference as a link and with a button to reveal and hide the contents of each tiddler separately.
+*''Hidden'' - hides the references section from all tiddlers when you need to do that.
+*''Highlights in context'' - displays each reference as a link and as highlighted search results, so you can see the context of the references without having to scroll through the entire tiddler.
+*''Simple links'' - displays each reference as a simple link.
+
+<span class="bluebox">
+
+''Activity:''
+
+In the sidebar, open the tab with the big pink eyeball (<<icon {{$:/core/images/preview-open}} "">>), if you haven't already. There you will find a link to a tiddler called `Muffin!`. Open Muffin! and click on the checkboxes there to see how they change the appearance of the links at the bottom of that tiddler. You will be given instructions to get back to the tutorial.
+
+</span>
+
+When you are done playing with my dog, head to the next part of the tutorial.

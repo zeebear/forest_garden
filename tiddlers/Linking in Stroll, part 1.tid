@@ -1,0 +1,24 @@
+created: 20200423143727948
+modified: 20210310040314599
+tags: $:/giffmex/tutorials
+title: Linking in Stroll, part 1
+tmap.id: 2ffa03d1-7f90-4d79-b1bb-ba8bd310f0f5
+type: text/vnd.tiddlywiki
+
+Linking, specifically bi-directional linking, is the heart of Stroll. Links create connections between your notes, and help you navigate quickly from one note to the next. Links are wrapped in double square brackets:
+
+`[[This is what a link looks like]]`
+
+!Autocompletion
+
+Stroll has an autocomplete feature, so when you type `[[` and start typing a link name, it will display some of the tiddlers that have those characters.
+
+<span class="bluebox">
+
+''Activity:''
+
+Open [[Autocompletion]] and follow the instructions in that tiddler to learn about autocompletion. Don't worry, you will be given directions to get back to the tutorial.
+
+</span>
+
+When you are done playing with the Autocompletion tiddler, you are ready for the next part of the tutorial.

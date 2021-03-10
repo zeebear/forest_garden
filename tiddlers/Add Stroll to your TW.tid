@@ -1,0 +1,30 @@
+created: 20200423155839450
+modified: 20210310040314074
+tags: $:/giffmex/tutorials
+title: Add Stroll to your TW
+tmap.id: cbe51af3-1a94-4d07-bea4-467c6732db15
+type: text/vnd.tiddlywiki
+
+!To add all of Stroll to your ~TiddlyWiki
+
+To add Stroll (minus tutorials) to your own ~TiddlyWiki, drag the tag pill below into your file, import, save, and reload. Please note that this overrides the default edittemplate and viewtemplate/titles, in case you have already tweaked those on your file.
+
+<span class="indent1"><<tag $:/giffmex/stroll>></span>
+
+!To add only parts of Stroll to your ~TiddlyWiki
+
+If you just want the bidirectional linking functionality, drag the tag pill below into your file, import, save, and reload. Includes autocomplete, relinking, automatic creation of tiddlers upon saving a tiddler with new links, and contextual search results. Does not include multiple column feature, new here buttons, or visible fold buttons.
+
+<span class="indent1"><<tag $:/giffmex/blinks>></span>
+
+If you just want the tools to customize what you see in the editing area, drag the tag pill below into your file, import, save, and reload. 
+
+<span class="indent1"><<tag $:/giffmex/bigeditarea>></span>
+
+And if for some reason you want the tutorial tiddlers (not included in either of the tag pills above), drag the ''tutorials'' tag pill from the home page into your file, import, save, and reload.
+
+<span class="indent1"><<tag $:/giffmex/tutorials>></span>
+
+!Uninstall ~TiddlyBlink
+
+<br>''If you already use ~TiddlyBlink'', you can uninstall it before adding Stroll: go to $:/AdvancedSearch in your file, paste `[is[system]tag[tb]]` in the search box to search for that string, and click the garbage can icon to delete the tiddlers. Then add Stroll in the method outlined above.

@@ -1,0 +1,20 @@
+created: 20200423155257441
+modified: 20210310040314255
+tags: $:/giffmex/tutorials
+title: Download Stroll
+tmap.id: 465a32ff-0f30-42d3-ab84-36e1875ab5aa
+type: text/vnd.tiddlywiki
+
+!!Download
+
+*Download a copy of Stroll with the tutorials included:
+
+**Click the <<icon {{$:/core/images/save-button}} "">> icon in the sidebar of this file, and follow instructions.
+
+*Download an empty copy of Stroll:
+
+**Open https://giffmex.org/stroll/empty.html, click the {{$:/core/images/save-wiki}} icon in the sidebar in that file, and follow instructions. 
+
+!!Saving changes
+
+*There may be a few steps involved for you to get Stroll to save changes the way you want it to. And everything depends on which browser you use and whether you use Stroll as a single file wiki, hosted online, with the ~TiddlyDesktop, or with node.js. See ~TiddlyWiki's documentation [[here|https://tiddlywiki.com/#GettingStarted]].

@@ -1,0 +1,69 @@
+created: 20200423151227589
+modified: 20210310040316263
+tags: $:/giffmex/tutorials
+title: Two columns
+tmap.id: 9165cefa-6f52-4ef2-87ec-07f1d7a280bc
+type: text/vnd.tiddlywiki
+
+Sometimes you want to see notes side by side:
+
+*To review one and write in another
+*To compare and contrast two ideas
+*To have a reference sheet or list of snippets open while you are writing
+
+In Roam you would do this by adding a page to the sidebar. In Scroll you do it by opening two columns of tiddlers.
+
+<span class="bluebox">
+
+''Activities:''
+
+#Hide the sidebar using the <<icon {{$:/core/images/chevron-right}} "">> icon at the top of the sidebar.
+
+#Hold down the Shift button and click on these two links, [[Dave Gifford]]. It should appear in a separate column to the right.
+#Do the same (shift-click) for the tiddler [[Muffin 1]].
+
+</span>
+
+Now you can view or edit tiddlers in either column, side-by-side!
+
+Note: If you close tidders and only one tiddler is left, Stroll will revert back to one column.
+
+!Diverting tiddlers between columns
+
+<span class="bluebox">
+
+''Activity:''
+
+#Now click the <<icon {{$:/_sq/Stories/icons/divert-left.svg}} "">> and <<icon {{$:/_sq/Stories/icons/divert-right.svg}} "">> icons at the top of the tiddler to 'divert' the [[Muffin 1]] tiddler back and forth between the two columns.
+
+</span>
+
+!'Folding' (compressing) tiddlers
+
+<span class="bluebox">
+
+#Click the <<icon {{$:/core/images/fold-button}} "">> in any tiddler multiple times to compress or 'fold' the contents of the tiddler. Folding tiddlers makes it faster to scroll up and down the columns. Click the button again to 'unfold' the tiddler.
+
+</span>
+
+!Switching between one- and two-column mode
+
+<span class="bluebox">
+
+''Activity:''
+
+#Open the sidebar back up. You will see a <<icon {{$:/_sq/Stories/icons/bars.svg}} "">> button in the sidebar. It is only visible when both columns are open. Click the button to return to one column mode. Click it again to open the two column mode again. 
+
+</span>
+
+!Adjusting the relative width (ratio) of the two columns
+
+In the gear tab in the sidebar, you will find a slider to adjust the ratio of the two story columns. 
+
+<span class="bluebox">
+
+''Activity:''
+
+#With tiddlers visible in both columns, slide the slider to see how it works.
+
+</span>

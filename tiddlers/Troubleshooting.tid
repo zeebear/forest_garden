@@ -1,0 +1,63 @@
+created: 20200516151401558
+modified: 20210310040316225
+tags: $:/giffmex/tutorials
+title: Troubleshooting
+tmap.id: 73dec090-e2d5-48d3-b812-0db5ca0598dd
+type: text/vnd.tiddlywiki
+
+!Autocomplete problems
+
+*If you downloaded Stroll between 5-21-2020 and 6-3-2020, your autocomplete probably isn't working. I fixed the problem, and you can drag [[this link|$:/config/EditorTypeMappings/text/vnd.tiddlywiki]] into your file to fix it. I accidentally forgot to tag this tiddler as ~$:/giffmex/stroll and ~$:/giffmex/blinks when I retagged the Stroll tiddlers on 5-21. Sorry! But it is fixed now.
+*For autocomplete with Markdown, see the section on Markdown below.
+
+!iOS
+
+''I use iOS and want to disable the link autocomplete!''
+
+<span class="indent1">
+
+Unfortunately the autocomplete plugin (called the edit-comptext plugin) does not work in iOS and other contexts where one can't use the down arrow key.
+
+To disable it, delete the following tiddler:  [[$:/config/EditorTypeMappings/text/vnd.tiddlywiki]] . This will return it to its default setting.
+
+</span>
+
+!Markdown
+
+''I have the markdown plugin, but autocompletion for linking doesn't work in my Markdown tiddlers!''
+
+<span class="indent1">
+
+The autocompletion of links with double brackets `[[link]]` is controlled by the comptext plugin. Users of Markdown have noticed that they can't use the autocomplete in their Markdown tiddlers. To make autocompletion compatible with formatting in Markdown tiddlers, create a tiddler with the title `$:/config/EditorTypeMappings/text/x-markdown` and put this in the text field: `comptext`
+
+Then, to enable the `[[]]` format for a link, open the following shadow tiddler: $:/config/markdown/renderWikiTextPragma and replace the text with: `\rules only html image macrocallinline syslink transcludeinline wikilink filteredtranscludeblock macrocallblock transcludeblock prettylink`
+
+</span>
+
+
+!~TiddlyMap
+
+We ''do not'' recommend using ~TiddlyMap. We have found too many incompatibilities. I will not help anyone else who comes to me with problems related to it. That said, here are solutions to two issues:
+
+''I get an error when doubleclicking a node while in fullscreen mode in ~TiddlyMap!''
+
+You will need to stop using fullscreen mode, which, for now, is incompatible for some reason with Stroll. But there is an easy workaround:
+
+# Install the link-to-tabs plugin from https://wikilabs.github.io/editions/link-to-tabs/ and save and refresh.
+# Click the link icon over the Map tab (visible on clicking that tab). This will open ~TiddlyMap as a tiddler, and doubleclicking a node will open the tidder //in the story river//. 
+
+''I installed ~TiddlyMap and now the columns are all messed up in two column mode!''
+
+<span class="indent1">
+
+Here is a hack to help you switch back and forth between wide and narrow sidebars: In the tiddler  ''~$:/plugins/felixhayashi/tiddlymap/hook/editor'' of your file, on a new line right after the first line (`\define width() calc(100% - 15px)`), insert the following:
+
+```
+\define lingo-base() $:/language/ThemeTweaks/
+
+<$select tiddler="$:/themes/tiddlywiki/vanilla/options/sidebarlayout"><option value="fixed-fluid"><<lingo Options/SidebarLayout/Fixed-Fluid>></option><option value="fluid-fixed"><<lingo Options/SidebarLayout/Fluid-Fixed>></option></$select>
+```
+
+Now your 'Map' tab will have a dropdown at the top to change the columns/sidebar relationship between 'fluid-fixed' and 'fixed-fluid'.
+
+</span>

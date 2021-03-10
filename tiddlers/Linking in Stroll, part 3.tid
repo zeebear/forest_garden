@@ -1,0 +1,18 @@
+created: 20200504135228746
+modified: 20210310040314651
+tags: $:/giffmex/tutorials
+title: Linking in Stroll, part 3
+tmap.id: a1d3aada-a3d4-4011-b888-d71e8e329e7d
+type: text/vnd.tiddlywiki
+
+!Automatic renaming of links when changing tiddler titles
+
+One more thing about linking: if you change the name of a tiddler, all the links to that tiddler will automatically be renamed. That will save you a lot of headaches later on.
+
+<span class="bluebox">
+
+''Activity:''
+
+#Open the tiddler [[Dave Gifford]] and follow the instructions there. You will be led back to the tutorial from there.
+
+</span>

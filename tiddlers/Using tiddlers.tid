@@ -1,0 +1,32 @@
+created: 20200423141336998
+modified: 20210310040316305
+tags: $:/giffmex/tutorials
+title: Using tiddlers
+tmap.id: 2176dc2f-d974-4f91-aa70-8378e53443a4
+type: text/vnd.tiddlywiki
+
+Tiddlers have two sides to them: a viewing mode and an editing mode.
+
+!Viewing mode
+
+*The buttons at the top right of the tiddler are called the 'viewtoolbar'.
+**<<icon {{$:/core/images/edit-button}} "">> takes you to editing mode
+**<<icon {{$:/core/images/close-button}} "">> closes the tiddler. It is now hidden but you can search for it in the searchbar or the tabs.
+**<<icon {{$:/core/images/down-arrow}} "">> opens a menu of other buttons.
+**You will find out about the other buttons in another step.
+
+!Editing mode
+
+*In editing mode you can change the tiddler title, add tags, add text, and make other advanced changes.
+*<<icon {{$:/core/images/chevron-down}} "">> opens a dropdown we will explain in the 'Advanced stuff' tab
+*<<icon {{$:/core/images/delete-button}} "">> deletes the tiddler
+*<<icon {{$:/core/images/cancel-button}} "">> cancels changes made to the tiddler and returns to viewing mode
+*<<icon {{$:/core/images/done-button}} "">> saves changes and returns to viewing mode
+
+<span class="bluebox">
+
+''Activity:''
+
+Click the <<icon {{$:/core/images/edit-button}} "">> icon in the top right corner of the Welcome to Stroll tiddler to go into editing mode and see what it looks like. Then click either the <<icon {{$:/core/images/cancel-button}} "">> button or the <<icon {{$:/core/images/done-button}} "">> button and return to viewing mode.
+
+</span>

@@ -1,0 +1,13 @@
+created: 20201231135547207
+modified: 20210310040314901
+tags: $:/giffmex/tutorials
+title: Remove Stroll from your TW
+tmap.id: e019c144-49c6-41d2-b285-7493bc9f71b0
+type: text/vnd.tiddlywiki
+
+To remove Stroll from to your own ~TiddlyWiki, 
+
+# Open  $:/AdvancedSearch 
+# Go to the 'Filter' tab
+# Type or paste in `[tag[$:/giffmex/stroll]]`
+# Hit the red garbage can button and click Delete these tiddlers. Save changes.

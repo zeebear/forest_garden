@@ -1,0 +1,16 @@
+created: 20200504134325953
+modified: 20210310040314150
+tags: $:/giffmex/tutorials
+title: Autocompletion
+tmap.id: 17d803a1-bbde-4861-be28-bc835052c895
+type: text/vnd.tiddlywiki
+
+Go to edit mode in this tiddler (use the {{$:/core/images/edit-button}} button above), and after one of the paragraphs, type `[[dav`. You should see the autocomplete popup with the tiddler `Dave Gifford` listed. Hit enter, which will accept the autocomplete suggestion and will close the link with brackets. 
+
+<span class="indent1">//Note that when the popup gives you more than one tiddler to choose from, you will need to use the down arrow key on your keyboard to navigate to the other entries listed in the autocomplete popup. Once the tiddler you want to select is highlighted, you can hit enter, and that tiddler should be the one to appear in the link.<br><br>
+
+Note that autocomplete does not work in iOS or other contexts where there is no down arrow key. At the end of the tutorial we will give instructions on how to disable autocomplete for those contexts.//</span>
+
+Go back to viewing mode, click the link you created to the `Dave Gifford` tiddler, and follow the instructions in that tiddler.
+
+When you are done here, return to [[Welcome to Stroll]] to continue the tutorial.
